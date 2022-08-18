@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        background-color: aqua;
+    }
+    li{
+        color: blue;
+    }
+    ul li{
+        display: inline;
+    }
+    a:link{
+        text-decoration: none;
+        color: #333;
+        font-size: 17pt;
+    }
+    a:visited{
+        text-decoration: none;
+        color: #333;
+        font-size: 17pt;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: tomato;
+    }
+    a:active{
+        color: gray;
+        text-decoration: underline;
+    }
+
+    input:disabled{ /*input 태그에 disabled 속성이 있는 곳에 적용*/
+        background-color: aqua;
+    }
+
+    input:checked + span{ /*input 태그에 radio에 체크했을 때 */
+        color: red;
+        font-size: 20pt;
+    }
+</style>
+<body>
+    <h1>하이퍼링크걸기</h1>
+    <ul>
+        <li><a href = "#">HOME</a></li>
+        <li><a href = "#">LOGIN</a></li>
+        <li><a href = "#">LOGOUT</a></li>
+        <li><a href = "#">JOIN</a></li>
+    </ul>
+
+    <hr>
+
+    <p>이름을 입력하세요</p>
+    <input type="text" disabled>
+    <p>선택과목을 체크하세요</p>
+    <input type="radio"><span>HTML5</span>
+    <input type="radio"><span>CSS3</span>
+
+</body>
+</html>

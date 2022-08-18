@@ -1,0 +1,16 @@
+div{
+    border: 5px solid yellow;
+}
+.nav{
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+.main{
+   float: right;
+    width: 500px;
+    height: 300px;
+}
+.footer{
+    position: bottom;
+}

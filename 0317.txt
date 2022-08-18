@@ -1,0 +1,26 @@
+box 모델
+1. block 모델 : 배치가 아래로
+ : div, p, h1~h6...
+2. inline 모델: 배치가 옆으로
+ : a, span...
+3. inline-block 모델: inline과 block의 속성을 모두 가짐
+ : img
+
+4. block -> inline : 		display: inline;	display:inline-block;
+*inline : width, height, padding-top 줄 수 없음
+*inline-block: width, height 줄 수 있음
+
+5. inline -> block:		display:block;
+
+
+
+----------------------------------------------------------------------------
+자식 선택자 (>)
+:내 바로 아래 자식만 선택
+ section > p {color: blue;}    ->   section 바로 밑 p 태그에 color blue 적용
+자손선택자 (빈칸)
+:부모 아래 있는 모든 자손들에 적용
+  section    p {background:gray;}    ->   section 밑 모든 p 태그에 background gray 적용
+
+
+

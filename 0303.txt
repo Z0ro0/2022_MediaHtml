@@ -1,0 +1,40 @@
+<<web
+1. 클라이언트(client): 브라우저, 정보를 요청
+  *브라우저 종류: 크롬, 익스플로러, 파이어폭스, 웨일, 오페라
+  * 클라이언트 언어(프론트엔드): html, css, js, react, vue...
+
+2. 서버(server): 정보를 제공
+  *서버사이드언어(백엔드): php, jsp, node, spring, django...
+  *서버사이드언어: 서버측에서 작동(서버가 있어야 실행이 된다)
+
+3. 시맨틱 태그(semantic tag)
+: 의미를 알 수 있게 지정한 태그
+<html>
+  <head>
+	<title>
+		<body>	
+			<header>
+			<nav>
+			<content>
+				<section>
+				<article>
+				<footer>....
+----------------------------------------------------------------------------
+CSS(Cascading Style Sheet)
+1. 삽입 방법
+  *<style>~~~~</style>
+  *외부 파일 링크 <link rel = "stylesheet" href ="">
+  *직접 삽입
+
+2. 형식: selector {속성: 값; 속성: 값; 속성: 값;}
+	1) selector: 태크, 클래스, 아이디
+	2) h1 태크에 배경색을 dodgerblue로 설정
+		h1{background: dodgerblue;}
+
+*<meta>: 문서에 대한 정보 알려 주는 태그
+
+file:///D:/2022php/test1.html(클라이언트에서 동작)
+http://127.0.0.1:5500/test1.html(서버에서 동작)
+*가상서버: http://localhost
+	 http://127.0.0.1
+
